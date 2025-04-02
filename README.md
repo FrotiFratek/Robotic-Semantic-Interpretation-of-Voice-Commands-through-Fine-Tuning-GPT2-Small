@@ -21,14 +21,14 @@ This project fine-tunes the `gpt2-small` model to generate semantic Graphviz (DO
 3. Run the notebook in Jupyter or VS Code
 
 ## Requirements
-Python version: 3.12.7
-transformers: 4.49.0
-torch: 2.6.0+cpu
-pandas: 2.2.2
-evaluate: 0.4.3
-tqdm: 4.66.5
-pydot: 3.0.4
-graphviz: 0.20.3
+-Python version: 3.12.7
+-transformers: 4.49.0
+-torch: 2.6.0+cpu
+-pandas: 2.2.2
+-evaluate: 0.4.3
+-tqdm: 4.66.5
+-pydot: 3.0.4
+-graphviz: 0.20.3
 
 ## Example
 
