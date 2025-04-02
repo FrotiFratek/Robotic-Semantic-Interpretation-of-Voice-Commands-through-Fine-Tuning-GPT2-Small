@@ -1,15 +1,19 @@
 # Robotic-Semantic-Interpretation-of-Voice-Commands-through-Fine-Tuning-GPT2-Small
 
-This project fine-tunes the gpt2-small model to generate semantic Graphviz (DOT) code based on pick-and-place commands for robots. The goal is to translate natural language instructions into structured graph representations.
+## 📖 Project Description
 
-The training dataset, graphviz_dataset.csv, contains 10,000 command–graph pairs generated using GPT-4o. A supporting file, Reduced_Word_Sets.csv, lists the vocabulary used by GPT-4o to construct the dataset.
+This project fine-tunes the `gpt2-small` model to generate semantic Graphviz (DOT) code based on pick-and-place commands for robots. The goal is to translate natural language instructions into structured graph representations.
 
-Two versions of the test set are included (test_set_v2.csv and test_set_fixed.csv), representing the same examples in slightly different formats.
+## 📁 Dataset & Files
 
-Model predictions are saved in predictions_cleaned.csv and predictions_fine_tuned_gpt2.csv, which contain both expected and generated Graphviz outputs. These were used to assess the fine-tuned model across multiple evaluation metrics, including BLEU, ROUGE, Exact Match, structural similarity, and syntactic validity.
+- `graphviz_dataset.csv` – 10,000 command–graph pairs generated using GPT-4o.
+- `Reduced_Word_Sets.csv` – vocabulary used to create the dataset.
+- `test_set_v2.csv` and `test_set_fixed.csv` – two formats of the same test set for evaluation.
+- `predictions_cleaned.csv` and `predictions_fine_tuned_gpt2.csv` – expected and generated outputs from the fine-tuned model used for evaluation.
 
-## Files
-- `GPT2_fine_tuning_graphs.ipynb`: Full workflow with explanations in Markdown cells.
+## 📂 Notebook
+
+- **`GPT2_fine_tuning_graphs.ipynb`** – Full workflow with explanations in Markdown cells.
 
 ## How to Run
 1. Clone this repo
