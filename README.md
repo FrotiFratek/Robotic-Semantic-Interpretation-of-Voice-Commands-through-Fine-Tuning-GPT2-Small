@@ -58,6 +58,7 @@ digraph SemanticGraph {
     hook -> shirt [label="object"];
     hook -> hanger [label="on"];
 }
+```
 
 ## Author
 Sebastian Hec - [@FrotiFratek](https://github.com/FrotiFratek)
