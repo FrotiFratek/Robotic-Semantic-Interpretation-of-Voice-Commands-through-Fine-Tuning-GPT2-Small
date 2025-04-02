@@ -4,6 +4,10 @@
 
 This project fine-tunes the `gpt2-small` model to generate semantic Graphviz (DOT) code based on pick-and-place commands for robots. The goal is to translate natural language instructions into structured graph representations.
 
+## 🎯 Project Goals
+
+This project explores how fine-tuning a causal language model can bridge natural language and structured representations for robotics. The long-term goal is enabling robots to semantically interpret and execute human commands in real environments.
+
 ## 📁 Dataset & Files
 
 - `graphviz_dataset.csv` – 10,000 command–graph pairs generated using GPT-4o.
@@ -63,6 +67,19 @@ digraph SemanticGraph {
     hook -> hanger [label="on"];
 }
 ```
+
+## 📊 Evaluation Summary
+
+| Metric               | Value    |
+|----------------------|----------|
+| BLEU                 | 0.993    |
+| ROUGE-L              | 0.937    |
+| Valid Graphs         | 100%     |
+| Exact Match          | 33.6%    |
+| Fuzzy Exact Match    | 93.5%    |
+
+> These results are based on `predictions_cleaned.csv` and `predictions_fine_tuned_gpt2.csv`.  
+> "Valid Graphs" refers to syntactically correct DOT format outputs.
 
 ## Author
 Sebastian Hec - [@FrotiFratek](https://github.com/FrotiFratek)
