@@ -41,6 +41,8 @@ graphviz: 0.20.3
 [00:00:00]EMOTE: *no key*/(monkey (912)) : <b>The monkey (912)</b>
 
 **Fine-Tuned Output (Generated Graph):**
+Command: Take the pink shirt from the round table and hook it on the hanger.
+Graph:
 ```dot
 digraph SemanticGraph {
     node [shape=ellipse, style=filled, fillcolor=white];
