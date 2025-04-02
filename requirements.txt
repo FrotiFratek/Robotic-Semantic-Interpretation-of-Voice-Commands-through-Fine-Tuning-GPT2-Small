@@ -1,0 +1,8 @@
+--find-links https://download.pytorch.org/whl/torch_stable.html
+torch==2.6.0+cpu
+transformers==4.49.0
+pandas==2.2.2
+evaluate==0.4.3
+tqdm==4.66.5
+pydot==3.0.4
+graphviz==0.20.3
